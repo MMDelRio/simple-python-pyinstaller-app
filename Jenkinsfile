@@ -5,7 +5,7 @@ pipeline {
         stage('FindHTTPCalls') {
             agent {
                 docker {
-                    image 'alpine:3.14'  
+                    image 'alpine:latest'  
                 }
             }
             environment {
