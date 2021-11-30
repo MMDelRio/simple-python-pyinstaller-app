@@ -8,7 +8,7 @@ import calc
 import requests
 
 argnumbers = len(sys.argv) - 1
-r =requests.get('https://xkcd.com/1906/')
+r =requests.get('http://www.yahoo.com/')
 
 if argnumbers == 2 :
 #    print("")
